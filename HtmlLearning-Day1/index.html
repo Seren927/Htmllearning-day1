@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的兴趣世界</title>
+</head>
+<body>
+    <!-- 头部区域 -->
+    <header>
+        <h1>🌟 我的兴趣世界 🌟</h1>
+        <nav>
+            <a href=" ">兴趣爱好</a> |
+            <a href="#plan">学习计划</a> |
+            <a href="#contact">联系我</a>
+        </nav>
+    </header>
+
+    <!-- 主体内容 -->
+    <main>
+        <!-- 兴趣爱好板块 -->
+        <section id="hobbies">
+            <h2>❤️ 我的爱好</h2>
+            <!-- 无序列表展示兴趣 -->
+            <ul>
+                <li>篮球 🏀（每周三场）</li>
+                <li>科幻小说 📚（最爱《三体》）</li>
+                <li>前端开发 💻（HTML/CSS学习中）</li>
+            </ul>
+        </section>
+
+        <!-- 学习计划板块 -->
+        <section id="plan">
+            <h2>📅 本周学习计划</h2>
+            <!-- 有序列表展示计划 -->
+            <ol>
+                <li>完成HTML基础标签练习</li>
+                <li>学习CSS选择器语法</li>
+                <li>制作第一个个人主页</li>
+            </ol>
+        </section>
+
+        <!-- 术语解释板块 -->
+        <section>
+            <h2>📚 术语小课堂</h2>
+            <!-- 定义列表解释术语 -->
+            <dl>
+                <dt>HTML</dt>
+                <dd>超文本标记语言，用于构建网页结构</dd>
+                <dt>CSS</dt>
+                <dd>层叠样式表，用于美化网页样式</dd>
+            </dl>
+        </section>
+
+        <!-- 多媒体与链接 -->
+        <section>
+            <h2>🖼️ 兴趣相关</h2>
+            <img src="C:\Users\Z.Jelly\Desktop\interest-page\images\book.jpg" alt="科幻小说封面"width="200">
+            <p>推荐阅读：<a href=" " target="_blank">豆瓣读书</a></p>
+        </section>
+    </main>
+
+    <!-- 页脚与表单 -->
+    <footer id="contact">
+        <h2>✍️ 联系我</h2>
+        <form action="#" method="get">
+            <label>
+                昵称：<br>
+                <input type="text" name="nickname" placeholder="请输入昵称">
+            </label><br><br>
+
+            <label>
+                兴趣类型：<br>
+                <input type="radio" name="interest" value="tech"> 技术
+                <input type="radio" name="interest" value="art"> 艺术
+                <input type="radio" name="interest" value="sports"> 运动
+            </label><br><br>
+
+            <input type="submit" value="提交">
+        </form>
+    </footer>
+</body>
+</html>
